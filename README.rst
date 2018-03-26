@@ -1,7 +1,7 @@
 ThreadFix Pro API
 **************
 
-A Python module to assist with the `ThreadFix Professional <https://denimgroup.com/threadfix/>`__ RESTFul API to administer scan artifacts and overall ThreadFix vulnerability administration.
+A Python module to assist with the `ThreadFix Professional <https://www.threadfix.it/>`__ RESTFul API to administer scan artifacts and overall ThreadFix vulnerability administration.
 
 Quick Start
 ~~~~~~~~~~~
