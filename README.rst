@@ -1,3 +1,9 @@
+.. image:: https://img.shields.io/pypi/v/threadfixproapi.svg
+   :target: https://pypi.org/project/threadfixproapi
+.. image:: https://img.shields.io/pypi/pyversions/threadfixproapi.svg
+.. image:: https://img.shields.io/travis/target/threadfixproapi/master.svg
+   :target: http://travis-ci.org/target/threadfixproapi
+   
 ThreadFix Pro API
 **************
 
@@ -49,6 +55,6 @@ Found something that doesn't seem right or have a feature request? `Please open 
 
 Copyright and License
 ~~~~~~~~~~~~~~~~~~~~~
-.. image:: https://img.shields.io/github/license/target/threadfixapi.svg?style=flat-square
+.. image:: https://img.shields.io/github/license/target/threadfixproapi.svg?style=flat-square
 
 - Copyright 2018 Target Brands, Inc.
