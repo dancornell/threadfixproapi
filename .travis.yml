@@ -15,7 +15,7 @@ deploy:
   distributions: sdist --formats=zip bdist_wheel
   user: bspruth
   password:
-    secure: 
+    secure: RChjFgF9tfB0yHV3tg/VPkWFN8pSHj9X7n2LFVmujCgxEQrsF9PEXhGna+m8n9xTo+Tzs97Js+LvViRezUs3AdY6NxWhkpbShmW3sli92aFFvVDD+y1WxrWfnhvvONxK+4O6klp+Tr3wdTtL3nC9IVoLwKRUPyQLUm+cbPpk/D3Giy+cJuZhzLeITj8peeJVdFiIGQxpTjOe0RSilWlFM9K+3UXqCYgXAsjXGg48UtGoRZwhHk99lh+yPmC140+7ZKTV+vYl0Gj6+r7huidJJZoakB2PmVuPeA+2KxNM73IPkbsfgreaGNy6ppWMLytgti9ZmzH87UFYJzm6Hx4v9Y/W0+4MgAE3GOhgER01UPnooWNCMygYvDtNPLemCFKzwORdNP24Hw6/HZFaDKDPDBF6RJSTlElZHqFQis3WfwzgiKG/9V8n2bwU7l7IAeDBd4qcmaIAg0ZQQyWV7UkU33sGFsYPdMOnnSsEOMQs1lsIx7aXKbsdUl1oaV5WQVBQsrhhv2C5w3zJ/a0/ni0NxbOscCD4eLHncTR0PUKp1SN7vtETVo6R8WdoDth0A29gxigwbHeFVgYM21ou1BgBc3iphuY9Q8ggsrLSTFbrTFFU9ipl5kWMm75WBWSCm1plC6xo2OjznrkXnnMCexgUSF3hnicBAHT/5wxWIg2p8H4=
   skip_upload_docs: true
   on:
     tags: true
