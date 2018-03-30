@@ -5,11 +5,9 @@ branches:
   except:
   - gh-pages
 install:
-- pip install tox "setuptools>=28.2"
+- pip install "setuptools>=28.2"
 - python setup.py -q build
 - python setup.py -q install
-- python setup.py -q publish
-script: pytest
 deploy:
   provider: pypi
   distributions: sdist --formats=zip bdist_wheel
