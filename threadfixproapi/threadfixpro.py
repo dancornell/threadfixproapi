@@ -50,6 +50,14 @@ class ThreadFixProAPI(object):
 
     # Team
 
+    def create_team(self, name):
+	"""
+	Creates a new team
+	:param name: The name of the new team being created
+	"""
+	params = {"name": name}
+	return self._request('POST', 'rest/teams/new', params)
+
     def list_teams(self):
         """Retrieves all the teams."""
         return self._request('GET', 'rest/latest/teams')
