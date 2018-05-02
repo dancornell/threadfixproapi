@@ -31,10 +31,10 @@ Example
     api_key = 'your_api_key_from_threadfix_professional'
 
     # initialize threadfix pro api module
-    tfp = threadfixpro.ThreadFixProApi(host, api_key)
+    tfp = threadfixpro.ThreadFixProAPI(host, api_key)
 
     # If you need to disable certificate verification.
-    # tfp = threadfixpro.ThreadFixProApi(host, api_key, verify_ssl=False)
+    # tfp = threadfixpro.ThreadFixProAPI(host, api_key, verify_ssl=False)
 
     # List your threadfix pro teams
     teams = tfp.list_teams()
