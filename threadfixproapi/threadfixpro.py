@@ -142,6 +142,25 @@ class ThreadFixProAPI(object):
         return self._request('GET', 'rest/latest/scans/' + str(scan_id) + '/download',
                              params={'scanFileName': filename})
 
+    # Tasks
+
+    def queue_scan(self, application_id, scanner_name, target_url = None, scan_config_id = None):
+        """
+        Queues up a scan with a given scanner for an application.
+        Allows caller to optionally override a default application URL and to specify a specific scan configuration file.
+        :param application_id Application identifier.
+        :param scanner_name Name of the scanner to run
+        :param target_url Alternate URL to scan versus the application's default URL
+        :param scan_config_id Identifier of file stored in ThreadFix that contains the scanner configuration to use
+	"""
+	params = {"applicationId": application_id, "scannerType": scanner_name}
+        if target_url:
+            params['targetURL'] = target_url
+        if scan_config_id:
+            params['scanConfigId'] = scan_config_id
+        return self._request('POST', 'rest/latest/tasks/queueScan', params)
+
+
     # Utility
     def _request(self, method, url, params=None, files=None):
         """Common handler for all HTTP requests."""
